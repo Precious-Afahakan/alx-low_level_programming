@@ -1,23 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - print all single digit numbers
+ * main - prints number one to nine
  *
- *
- * Return: Always 0
+ * Return: always returns 0
  */
 
 int main(void)
 {
-	int a;
+	int x;
 
-	a = 97;
-	while (a <= 122)
+	for (x = 0; x < 10; x++)
 	{
-		if (!(a == 101 || a == 113))
-			putchar(a);
-		a++;
+		printf("%d", x);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
