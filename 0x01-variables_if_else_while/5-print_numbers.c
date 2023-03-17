@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - The main function prints out the alphabets
- * all letters except q and e
+ * main - print all single digit numbers
  *
- * Return: always returns zero
+ *
+ * Return: Always 0
  */
 
 int main(void)
